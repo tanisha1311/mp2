@@ -45,7 +45,6 @@ export default function GalleryView() {
     }
     run();
     return () => {
-      ignore = true;
     };
   }, [selected]);
 
