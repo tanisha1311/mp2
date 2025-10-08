@@ -24,7 +24,6 @@ export default function GalleryView() {
   }, []);
 
   useEffect(() => {
-    let ignore = false;
     async function run() {
       setLoading(true);
       try {
