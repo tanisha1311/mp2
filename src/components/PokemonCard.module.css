@@ -1,0 +1,49 @@
+.card {
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.08s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.thumbWrap {
+  display: grid;
+  place-items: center;
+  background: #f7f7f7;
+  height: 140px;
+}
+
+.thumb {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.body {
+  padding: 10px 12px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #222;
+  text-transform: capitalize;
+}
+
+.meta {
+  color: #666;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.dex {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  color: #0a7;
+  margin-right: 6px;
+}
